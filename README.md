@@ -40,11 +40,11 @@ The **chatbot** is deployed on **AWS EC2**, providing a scalable and robust envi
 
 Dataset for this Project is taken from Kaggle. Here is the Dataset [Link](https://www.kaggle.com/datasets/jatinsareen/flipkart-dataset). The dataset used in this project contains 450 product reviews about different brands of headphones, erabuds and others collected from Flipkart, including the following key features:
 
-1. Product ID: A unique identifier for each product.
-2. Product Title: The name or title of the product, which helps in understanding the product context for recommendations.
-3. Rating: A numeric rating (out of 5) given by users, indicating the product's quality.
-4. Summary: A short summary or headline of the review.
-5. Review: A detailed user review, providing insights into the user's experience with the product.
+1. **Product ID**: A unique identifier for each product.
+2. **Product Title**: The name or title of the product, which helps in understanding the product context for recommendations.
+3. **Rating**: A numeric rating (out of 5) given by users, indicating the product's quality.
+4. **Summary**: A short summary or headline of the review.
+5. **Review**: A detailed user review, providing insights into the user's experience with the product.
 
 ### These product titles, ratings, summaries, and review texts are leveraged to create embeddings and improve the relevance of chatbot responses in understanding customer inquiries about products. Also, you can download the dataset from [here](data/flipkart_product_review.csv)
 
