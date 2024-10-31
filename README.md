@@ -142,7 +142,7 @@ http://localhost:8000/
 
 ```
 
-## Prediction Outputs
+## ChatBot Responses Outputs
 ![image](assets/Output1.png)
 ![image](assets/Output2.png)
 ![image](assets/Output3.png)
