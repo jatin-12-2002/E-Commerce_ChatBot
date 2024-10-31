@@ -269,7 +269,7 @@ sudo systemctl restart nginx
 sudo nano /etc/systemd/system/gunicorn.service
 ```
 
-### Step 6.14: Update the configuration as follows:
+### Step 6.16: Update the configuration as follows:
 ```bash
 [Unit]
 Description=Gunicorn instance to serve my project
@@ -286,7 +286,7 @@ WantedBy=multi-user.target
 ```
 ### Save and close the file
 
-### Step 6.15: Start and enable the service:
+### Step 6.17: Start and enable the service:
 ```bash
 sudo systemctl start gunicorn
 ```
@@ -294,7 +294,7 @@ sudo systemctl start gunicorn
 sudo systemctl enable gunicorn
 ```
 
-### Step-15: Configure your inbound rule:
+### Step 7: Configure your inbound rule:
 1. Go inside the security
 2. Click on security group
 3. Configure your inbound rule with certain values
@@ -302,12 +302,12 @@ sudo systemctl enable gunicorn
 5. Port 8000 0.0.0.0/0 for anywhere traffic TCP/IP protocol
 6. Port 11434 0.0.0.0/0 for anywhere traffic TCP/IP protocol
 
-### Step-16: Save it and now run your application.
+### Step 8: Save it and now run your application.
 ```bash
 gunicorn -w 2 -b 0.0.0.0:8000 app:app
 ```
 
-### Step 17 - Run the Public Port of EC2 Instance
+### Step 9 - Run the Public Port of EC2 Instance
 ```bash
 Public_Address:8080
 ```
