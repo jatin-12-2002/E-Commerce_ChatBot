@@ -1,5 +1,6 @@
 langchain-astradb
 langchain
+langchain_community
 datasets
 pypdf
 python-dotenv
