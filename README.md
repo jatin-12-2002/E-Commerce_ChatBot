@@ -23,7 +23,9 @@ Given the model’s large size, generating responses with **LLaMA 3.1-8b** can o
 The **chatbot** is deployed on **AWS EC2**, providing a scalable and robust environment for running the model, handling user interactions, and managing retrievals from the database.
 
 ## Tech Stack Used
-- **Backend**: Python, Flask, LangChain
+- **Language**: Python
+- **FrameWork**: LangChain
+- **Backend**: Flask
 - **Model**: LLaMA 3.1-8b (Ollama), HuggingFace sentence-transformers
 - **Database**: AstraDB (vector storage for embeddings)
 - **Message Queue**: Redis
